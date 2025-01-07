@@ -1,0 +1,124 @@
+.p-toast {
+	font-family: Montserrat, sans-serif;
+}
+
+/* Styles for the toast message */
+.p-toast-message {
+	display: flex;
+	align-items: center;
+	border-radius: 8px;
+	padding: 16px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+	margin-bottom: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	position: relative; /* Ensure relative positioning for absolute children */
+	font-size: 25px; /* Set all text to 25px */
+}
+
+/* Styles for success messages */
+.p-toast-message-success {
+	background-color: #e7f5e7;
+	border-color: #a3d9a3;
+}
+
+.p-toast-message-success .p-toast-message-icon {
+	color: #548c60;
+}
+
+/* Styles for warning messages */
+.p-toast-message-warn {
+	background-color: #fff3cd;
+	border-color: #ffeeba;
+}
+
+.p-toast-message-warn .p-toast-message-icon {
+	color: #b58900;
+}
+
+/* Styles for error messages */
+.p-toast-message-error {
+	background-color: #f8d7da;
+	border-color: #f5c6cb;
+}
+
+.p-toast-message-error .p-toast-message-icon {
+	color: #c53030;
+}
+
+/* Styles for info messages */
+.p-toast-message-info {
+	background-color: #d1ecf1;
+	border-color: #bee5eb;
+}
+
+.p-toast-message-info .p-toast-message-icon {
+	color: #0c5460;
+}
+
+/* Styles for secondary messages */
+.p-toast-message-secondary {
+	background-color: #e2e3e5;
+	border-color: #d6d8db;
+}
+
+.p-toast-message-secondary .p-toast-message-icon {
+	color: #6c757d;
+}
+
+/* Styles for contrast messages */
+.p-toast-message-contrast {
+	background-color: #343a40;
+	border-color: #454d55;
+	color: #fff; /* Ensure text is readable on dark background */
+}
+
+.p-toast-message-contrast .p-toast-message-icon {
+	color: #ffffff;
+}
+
+/* Styles for the message content */
+.p-toast-message-content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 16px;
+	flex: 1; /* Ensure it takes the remaining space */
+}
+
+/* Styles for the summary */
+.p-toast-summary {
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 4px;
+}
+
+/* Styles for the detail */
+.p-toast-detail {
+	font-size: 15px;
+}
+
+/* Styles for the close button */
+.p-toast-close-button {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	background: none;
+	border: none;
+	cursor: pointer;
+	color: inherit;
+}
+
+/* Styles for the close icon */
+.p-toast-close-icon {
+	font-size: 1.2em;
+	width: 20px;
+	height: 20px;
+}
+
+/* Styles for the message icon */
+.p-toast-message-icon {
+	font-size: 2em; /* Make the icon larger */
+	margin-right: 16px; /* Add some space between the icon and the content */
+	width: 30px;
+	height: 30px;
+}

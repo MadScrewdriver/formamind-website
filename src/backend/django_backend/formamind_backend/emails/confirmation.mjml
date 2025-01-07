@@ -1,0 +1,63 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-text font-family="Arial, sans-serif" color="#000000"/>
+        </mj-attributes>
+    </mj-head>
+    <mj-body background-color="#ffffff">
+        <mj-section background-color="#ffffff" padding="20px">
+            <mj-column width="100%">
+                <mj-image
+                        src="https://media.licdn.com/dms/image/v2/D4D0BAQGlIB-XJlKanQ/company-logo_100_100/company-logo_100_100/0/1721213966375?e=1732147200&v=beta&t=3Di4LC7UK1A1J-rUzbWpkpNixJPwf3gA_QFuHaZT18U"
+                        alt="Formamind Logo" align="center" width="80px"/>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="20px">
+            <mj-column width="100%">
+                <mj-text font-size="20px" color="#0020FF" align="center" font-weight="bold">
+                    Thank You for Reaching Out!
+                </mj-text>
+                <mj-text font-size="16px" color="#000000">
+                    Dear $name,
+                </mj-text>
+                <mj-text font-size="16px" color="#000000">
+                    We’ve received your message and will respond to you as quickly as possible.
+                </mj-text>
+                <mj-text font-size="16px" color="#000000">
+                    We're here for you with whatever you need.
+                </mj-text>
+                <mj-text font-size="16px" color="#000000">
+                    Warm regards,
+                    <br/>
+                    The Formamind Team <br/><br/>
+                    <a href="https://www.formamind.com" style="color:#000000; text-decoration:none;">www.formamind.com</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#ffffff" padding="20px">
+            <mj-column width="100%">
+                <mj-text font-size="14px" color="#000000" align="center">
+                    Formamind sp. z o. o.
+                    <br/>
+                    ul. Stefana Batorego 18,
+                    <br/>
+                    02-591 Warszawa, Polska
+                    <br/>
+                    <br/>
+                    REGON: 529123322
+                    <br/>
+                    NIP: 7011213157
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#ffffff" padding="20px">
+            <mj-column width="100%">
+                <mj-text font-size="14px" color="#000000" align="center">
+                    © 2024 Formamind sp. z o. o. Wszystkie prawa zastrzeżone.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

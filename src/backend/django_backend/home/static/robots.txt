@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /static/
+Disallow: /login/
+Disallow: /logout/
+Disallow: /search/
+Disallow: /django-admin/
+Disallow: /contact-form/
+Disallow: /documents/
+
+Allow: /
+
+Sitemap: https://www.formamind.com/sitemap.xml

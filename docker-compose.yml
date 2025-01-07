@@ -1,0 +1,44 @@
+services:
+  backend:
+    build:
+      context: ./src/backend/django_backend
+    container_name: django-backend
+    working_dir: /app
+    command: ["sh", "-c", "python manage.py migrate && 
+    python manage.py collectstatic --noinput && 
+    python manage.py createsuperuser --noinput &&
+    gunicorn formamind_backend.wsgi:application --bind 0.0.0.0:8000"]
+    volumes:
+      - ./src/backend/django_backend:/app
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+
+  frontend:
+    build:
+      context: ./src/web_client
+    container_name: nuxt-frontend
+    volumes:
+      - ./src/web_client:/app
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    depends_on:
+      - backend
+
+  db:
+    image: mysql:8.0
+    container_name: mysql-db
+    volumes:
+      - ./db_data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    ports:
+      - "3306:3306"

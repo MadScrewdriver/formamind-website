@@ -1,0 +1,13 @@
+#PYHCARM
+venv
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.db
+/static
+media
+.idea
+db.sqlite3
+/static/

@@ -1,0 +1,110 @@
+@font-face {
+	font-family: 'FeatureMono';
+	src: url('../fonts/FeatureMono-Regular.ttf');
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'FeatureMono';
+	src: url('../fonts/FeatureMono-Medium.ttf');
+	font-weight: medium;
+}
+@font-face {
+	font-family: 'FeatureMono';
+	src: url('../fonts/FeatureMono-Bold.ttf');
+	font-weight: bold;
+}
+@font-face {
+	font-family: 'FeatureMono';
+	src: url('../fonts/FeatureMono-Hairline.ttf');
+	font-weight: hairline;
+}
+@font-face {
+	font-family: 'FeatureMono';
+	src: url('../fonts/FeatureMono-Thin.ttf');
+	font-weight: thin;
+}
+@font-face {
+	font-family: 'FeatureMono';
+	src: url('../fonts/FeatureMono-Light.ttf');
+	font-weight: light;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+@-moz-document url-prefix() {
+	* {
+		scrollbar-width: thin;
+		scrollbar-color: rgba(255, 185, 106, 1) #f2f1f0;
+	}
+
+	html,
+	body {
+		scrollbar-width: auto;
+	}
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	font-size: 10px;
+	scrollbar-gutter: stable;
+	background: rgb(255, 250, 245);
+}
+
+body {
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+#__nuxt {
+	width: 100%;
+	height: 100%;
+}
+
+::-moz-selection {
+	/* Code for Firefox */
+	color: #0020ff;
+	background: rgba(255, 185, 106, 0.8);
+}
+
+::selection {
+	color: #0020ff;
+	background: rgba(255, 185, 106, 0.8);
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f2f1f0;
+	border-top: 0;
+}
+
+body::-webkit-scrollbar-track {
+	border-top: 3.5px solid #f27f4e;
+}
+
+body::-webkit-scrollbar {
+	width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+	border-radius: 4px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: rgba(255, 185, 106, 1);
+	cursor: pointer;
+}
