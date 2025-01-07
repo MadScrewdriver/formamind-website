@@ -1,4 +1,8 @@
-# [Formamind](https://formamind.com) – Strona Firmowa (Docker)
+
+![formamind](https://i.ibb.co/4tGvK1f/card.png)
+# Formamind – Strona Firmowa (Docker)
+[Formamind.com](https://formamind.com) 
+
 Aplikacja składa się z trzech komponentów:
 
 ### Komponenty
@@ -10,8 +14,8 @@ Aplikacja składa się z trzech komponentów:
 
 ### 1. Sklonuj repozytorium:
 ```bash
-git clone https://github.com/yourusername/formamind-docker-website.git
-cd formamind-docker-website
+git clone https://github.com/MadScrewdriver/formamind-website.git
+cd formamind-website
 ```
 
 ### 2. Uruchom kontenery:
