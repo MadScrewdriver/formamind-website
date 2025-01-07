@@ -25,7 +25,7 @@ docker-compose up --build
 - **Backend (panel administratora)**: [http://localhost:8000](http://localhost:8000)
 
 ### Informacje o aplikacji:
-- Adres serwera MySQL**: `localhost:3306`
+- Adres serwera MySQL: `localhost:3306`
 - Nazwa użytkownika administratora Django: `admin`
 - Hasło administratora Django: `admin`
 
