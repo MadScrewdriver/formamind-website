@@ -1,6 +1,5 @@
-# Formamind – Strona Firmowa (Docker)
-
-Aplikacja składa się z trzech głównych komponentów:
+# [Formamind](https://formamind.com) – Strona Firmowa (Docker)
+Aplikacja składa się z trzech komponentów:
 
 ### Komponenty
 - **Frontend (Nuxt.js)** – warstwa wizualna i interfejs użytkownika.
