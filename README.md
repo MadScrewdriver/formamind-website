@@ -6,9 +6,9 @@
 Aplikacja składa się z trzech komponentów:
 
 ### Komponenty
-- **Frontend (Nuxt.js)** – warstwa wizualna i interfejs użytkownika.
-- **Backend (Django)** – logika serwerowa, przetwarzanie danych i API.
-- **Baza danych (MySQL)** – przechowywanie danych aplikacji.
+- **Frontend (Nuxt.js)** – interfejs użytkownika.
+- **Backend (Django)** – API i CMS.
+- **Baza danych (MySQL)**
 
 ##
 
