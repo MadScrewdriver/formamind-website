@@ -12,18 +12,18 @@ Aplikacja składa się z trzech komponentów:
 
 ##
 
-### 1. Sklonuj repozytorium:
+### 1. Klonowanie repozytorium:
 ```bash
 git clone https://github.com/MadScrewdriver/formamind-website.git
 cd formamind-website
 ```
 
-### 2. Uruchom kontenery:
+### 2. Uruchomienie aplikacji:
 ```bash
 docker-compose up --build
 ```
 
-### 3. Otwórz w przeglądarce:
+### 3. Frontend i Backend:
 - **Frontend**: [http://localhost:3000](http://localhost:3000)
 - **Backend (panel administratora)**: [http://localhost:8000](http://localhost:8000)
 
